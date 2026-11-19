@@ -1,0 +1,30 @@
+
+{
+  "name": "webscrapping",
+  "version": "1.0.0",
+  "description": "Robu.in drone parts web scraping and migration project",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test:browser": "node src/test-browser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarshaWankhedeCtrlA/webscrapping.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.21.1",
+    "dotenv": "^18.0.10",
+    "exceljs": "^4.4.0",
+    "mongodb": "^7.9.0",
+    "p-limit": "^7.3.3",
+    "playwright": "^1.65.1",
+    "sharp": "^0.35.5",
+    "zod": "^4.6.7"
+  }
+}
